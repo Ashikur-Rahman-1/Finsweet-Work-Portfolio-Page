@@ -1,0 +1,143 @@
+@media (max-width: 991.98px) {
+  /* =========Navbar part start======= */
+
+  .customNavButton {
+    background-color: white;
+  }
+
+  .customNavButton:focus {
+    box-shadow: none;
+  }
+
+  .navLI {
+    width: 100%;
+    background-color: var(--button_color);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .navLI--firstElement {
+    margin-top: 30px;
+  }
+
+  .navbar_item {
+    color: white;
+  }
+
+  .btn {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
+  /* =========Navbar part end======= */
+
+  /* =========Portfolio part start======= */
+
+  #portfolio {
+    padding: 35px 0;
+  }
+
+  .portfolio__summary {
+    padding: 0 142px;
+  }
+
+  /* =========Portfolio part end======= */
+
+  /* =========template part end======= */
+
+  #template {
+    padding: 48px 0 70px;
+  }
+
+  .templatebtn:focus {
+    box-shadow: none;
+  }
+
+  .Navli--firstElement {
+    margin-top: 30px;
+  }
+
+  .Navli {
+    width: 100%;
+    background-color: var(--button_color);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .template__title {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+  }
+  /* =========template part end======= */
+
+  /* =========build part start======= */
+
+  #build {
+    padding: 0 0 41px;
+  }
+
+  .buildTitle {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0 142px;
+  }
+
+  .buildSummary {
+    padding: 0 139px;
+  }
+  /* =========build part end======= */
+
+  /* =========footer part start======= */
+
+  #footerPart {
+    padding: 23px 0 0;
+  }
+
+  .leftContacts__mail {
+    width: 50%;
+  }
+
+  .leftContacts__phone {
+    width: 50%;
+  }
+
+  .leftContacts__mail {
+    padding-left: 11px;
+  }
+
+  .footerPart__right {
+    padding-left: 86px;
+  }
+
+  /* =========footer part end======= */
+
+  /* =========footer last part start======= */
+
+  .footerbtn:focus {
+    box-shadow: none;
+  }
+
+  .footernav{
+    width: 100%;
+    background-color: var(--button_color);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+
+  .footernav--firstelement{
+    margin-top: 30px;
+  }
+  /* =========footer last part end======= */
+}

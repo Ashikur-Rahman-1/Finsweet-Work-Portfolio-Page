@@ -1,0 +1,18 @@
+@media (max-width: 575.98px) { 
+
+/* ========footer part start ======*/
+
+.container{
+    padding: 0 30px !important;
+}
+
+.leftContacts__mail{
+    width: 100%;
+    padding: 0;
+}
+
+.leftContacts__phone{
+    width: 100%;
+    padding-left: 0px;
+}
+ }

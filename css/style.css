@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+li,
+span,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --secondary_background_color: #f4f6fc;
+  --primary_text_color: #282938;
+  --link_color: #2405f2;
+  --white_color: #fff;
+  --button_color: #fcd980;
+}
+
+/* =============Navbar css start============ */
+.customNavbar {
+  background-color: var(--primary_background_color);
+}
+
+.navbar_item {
+  color: #bbbbcb;
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar_item:hover {
+  color: var(--white_color);
+}
+
+.btn {
+  padding: 16px 48px;
+  background-color: transparent;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  color: #bbbbcb;
+  border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+}
+.btn:hover {
+  border: 2px solid var(--white_color);
+  color: var(--white_color);
+}
+
+/* =============Navbar css end============== */
+
+/* =============Portfolio css start============== */
+
+#portfolio {
+  padding: 96px 0;
+  background-color: var(--secondary_background_color);
+}
+
+.portfolio__header {
+  color: var(--primary_text_color, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.portfolio__title {
+  color: var(--primary_text_color, #282938);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.portfolio__summary {
+  color: var(--primary_text_color, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  padding: 0 291px;
+}
+
+.portfolio__socialIcon {
+  color: var(--primary_text_color);
+  padding-right: 27.84px;
+}
+/* =============Portfolio css end============== */
+
+/* =============Template css start============== */
+.secondNavbar {
+  padding-top: 96px;
+}
+
+.ListItem {
+  color: var(--primary_text_color);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.ListItem:hover {
+  color: var(--link_color);
+}
+
+.ListItem__child {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.7;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.ListItem__child:hover {
+  color: var(--link_color, #2405f2);
+}
+
+#template {
+  padding: 48px 0 128px;
+}
+
+.gridrow {
+  row-gap: 64px;
+}
+
+.template__title {
+  color: var(--Dark-blue, #282938);
+
+  /* Heading 3 */
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+
+.template__summary {
+  color: var(--Dark-blue, #282938);
+  text-align: justify;
+
+  /* Body 1 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+
+.template__viewMore {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+.arrow {
+  width: 24px;
+  height: 0px;
+}
+
+/* =============Template css end============== */
+
+/* =============buildPart css start============== */
+
+#build {
+  padding: 0 0 128px;
+}
+
+.buildTitle {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  padding: 0 237px;
+}
+
+.buildSummary {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  padding: 0 382px;
+}
+
+.buildButton {
+  padding: 16px 67px;
+  background-color: #fcd980;
+  border: none;
+  border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+
+  color: #1b1c2b;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+}
+/* =============buildPart css end============== */
+
+
+/* =============footer part css start============= */
+#footerPart {
+  padding: 96px 0 0;
+  background-color: #1c1e53;
+}
+
+.footerPart__leftSummary {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  max-width: 399px;
+  padding: 0 0 86px;
+}
+
+.footerPart__leftContacts {
+  padding: 17px 0 16px;
+  background-color: #fcd980;
+}
+
+.leftContacts__mail {
+  padding-left: 37px;
+}
+
+.leftContacts__phone {
+  padding-left: 29px;
+}
+
+.leftContacts__mailTitle {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.leftContacts__mailinfo {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.leftContacts__phoneTitle {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.leftContacts__phoneInfo {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.footerPart__right {
+  padding-left: 141px;
+}
+
+.footerPart__rightTitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.footerPart__rightSummary {
+  color: #f4f6fc;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  max-width: 399px;
+}
+
+.footerPart__rightSocialIcon {
+  font-size: 18px;
+  color: var(--white_color);
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+/* =============footer part css end============= */
+
+/* =============footer last part css start========= */
+
+.footerNavbar {
+  background-color: #fff;
+}
+
+.navbarCopyright {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.navbarMenu {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+/* =============footer last part css end=========== */
+

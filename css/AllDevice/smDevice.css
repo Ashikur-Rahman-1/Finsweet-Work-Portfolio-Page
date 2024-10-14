@@ -1,0 +1,53 @@
+@media (max-width: 767.98px) {
+  /* ============navbar part start========= */
+
+  .btn {
+    margin-top: 14px;
+  }
+  /* ============navbar part end========= */
+
+  /* ============portfolio part start========= */
+  .portfolio__summary {
+    padding: 0 50px;
+  }
+
+  /* ============portfolio part end========= */
+
+  /* ============template part start========= */
+
+  #template {
+    padding: 48px 0 30px;
+  }
+  .secondNavbar {
+    padding-top: 18px;
+  }
+
+  /* ============template part end========= */
+
+  /* ============build part start========= */
+
+  .buildTitle {
+    padding: 0 84px;
+  }
+
+  .buildSummary {
+    padding: 0 50px;
+  }
+  /* ============build part end========= */
+
+  .footerPart__leftSummary {
+    padding: 0 0 34px;
+  }
+
+  .footerPart__leftContacts {
+    flex-wrap: wrap;
+  }
+
+  .footerPart__right {
+    padding-left: 0px;
+}
+
+.footerPart__rightSummary{
+    margin: 0 auto;
+}
+}

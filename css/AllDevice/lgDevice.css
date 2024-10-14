@@ -1,0 +1,23 @@
+@media (max-width: 1199.98px) {
+  /* =========Portfolio part start======= */
+  .portfolio__summary {
+    padding: 0 234px;
+  }
+
+  /* =========Portfolio part end======= */
+
+  /* =========Build part start======= */
+  .buildTitle {
+    padding: 0 207px;
+  }
+
+  .buildSummary {
+    padding: 0 254px;
+  }
+
+  #build {
+    padding: 0 0 84px;
+  }
+
+  /* =========Build part end======= */
+}
